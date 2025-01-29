@@ -10,6 +10,9 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
 2. Singly Linked List  
    - Node-based structure with efficient insertion and deletion operations.  
    - Custom implementation to understand linked data representation.  
+3. Doubly Linked List  
+   - Full implementation of a doubly linked list with forward and backward traversal.
+   - Efficient operations like insertion, deletion, and various utilities.
 
 ---
 
@@ -68,6 +71,36 @@ This repository also includes a **Singly Linked List**, implemented from scratch
 - **Debugging Tools**:
   - `debug_to_string`: Converts the list to a string representation for debugging.
   - `debug_verify_data_integrity`: Validates the integrity of the list's structure.
+
+---
+
+## 3. Doubly Linked List
+
+This repository also includes a **Doubly Linked List**, implemented to explore the more advanced features of linked structures with both forward and backward traversal.
+
+### Key Features:
+- **Node Structure**: Each node contains pointers to both the next and previous nodes.
+- **Efficient Operations**:
+  - `insert_end`: Inserts a new node at the end of the list.
+  - `insert_front`: Inserts a new node at the front of the list.
+  - `delete_front`: Deletes the front node.
+  - `delete_end`: Deletes the last node.
+  - `delete_with_key`: Deletes nodes by specific value.
+  - `delete_all_nodes_with_key`: Deletes all nodes that match a value.
+  - `delete_even_positions`: Deletes nodes at even positions.
+  - `delete_odd_positions`: Deletes nodes at odd positions.
+  - `reverse`: Reverses the entire list.
+  - `merge_2sorted_lists`: Merges two sorted lists into one.
+- **Advanced Operations**:
+  - `is_palindrome`: Checks if the list is a palindrome.
+  - `middle`: Finds the middle element of the list.
+  - `Swap`: Swaps the kth element from the front with the kth element from the back.
+- **Debugging Tools**:
+  - `debug_add_node`: Adds nodes to the debug list for visualization.
+  - `debug_remove_node`: Removes nodes from the debug list.
+  - `debug_print_address`: Prints node addresses and data.
+  - `debug_print_node`: Prints details about a specific node.
+  - `debug_print_list`: Prints the entire list with debug information.
 
 ### Prerequisites
 - A working installation of a C++ compiler (e.g., GCC, Clang, or MSVC).
