@@ -4,19 +4,25 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
 
 ## Topics Covered
 
-1. Vectors  
+📌 **1. Vectors**  
    - Dynamic resizing, insertion, deletion, and rotations.  
-   - Custom implementation showcasing internal workings.  
-2. Singly Linked List  
+   - Custom implementation showcasing internal workings.
+
+📌 **2. Singly Linked List**  
    - Node-based structure with efficient insertion and deletion operations.  
-   - Custom implementation to understand linked data representation.  
-3. Doubly Linked List  
-   - Full implementation of a doubly linked list with forward and backward traversal.
+   - Custom implementation to understand linked data representation.
+
+📌 **3. Doubly Linked List**  
+   - Full implementation of a doubly linked list with forward and backward traversal.  
    - Efficient operations like insertion, deletion, and various utilities.
+
+📌 **4. Stack**  
+   - Multiple implementations of stack data structures.  
+   - Stack-based algorithms for solving common computational problems.  
 
 ---
 
-## 1. Vectors
+## 📌 1. Vectors
 
 This repository contains a custom implementation of a dynamic array, or **Vector**, in C++. Unlike the STL `std::vector`, this implementation delves into the low-level mechanisms of dynamic arrays, including memory management and resizing.
 
@@ -38,7 +44,7 @@ This repository contains a custom implementation of a dynamic array, or **Vector
 
 ---
 
-## 2. Singly Linked List
+## 📌 2. Singly Linked List
 
 This repository also includes a **Singly Linked List**, implemented from scratch to demonstrate the basics of linked structures.
 
@@ -74,7 +80,7 @@ This repository also includes a **Singly Linked List**, implemented from scratch
 
 ---
 
-## 3. Doubly Linked List
+## 📌 3. Doubly Linked List
 
 This repository also includes a **Doubly Linked List**, implemented to explore the more advanced features of linked structures with both forward and backward traversal.
 
@@ -101,7 +107,27 @@ This repository also includes a **Doubly Linked List**, implemented to explore t
   - `debug_print_address`: Prints node addresses and data.
   - `debug_print_node`: Prints details about a specific node.
   - `debug_print_list`: Prints the entire list with debug information.
+---
 
+## 📌 4. Stack
+
+This repository now includes multiple implementations of the **Stack** data structure to explore various approaches and stack-based algorithms.
+
+### Key Features:
+- **Stack Implementations**:
+  - **Array-based Stack**: Uses a dynamic array with push, pop, peek, and display operations.
+  - **Two-Stack Implementation**: Implements two stacks in a single array for memory efficiency.
+  - **Reverse Stack Operations**: Functions to reverse a stack using recursion and insertion at the bottom.
+- **Stack-Based Algorithms**:
+  - `reverse_subWords`: Reverses each word in a sentence while keeping the order of words.
+  - `reverse_num`: Reverses the digits of a number.
+  - `valid_parentheses`: Checks if a string contains balanced parentheses.
+  - `removeDuplicates`: Removes consecutive duplicate characters from a string.
+  - `asteroidCollision`: Simulates asteroid collisions using a stack.
+  - `infix_to_postfix`: Converts an infix expression to postfix notation for easier computation.
+  - `infix_to_postfix_efficient`: Optimized version of the infix-to-postfix conversion.
+ 
+--- 
 ### Prerequisites
 - A working installation of a C++ compiler (e.g., GCC, Clang, or MSVC).
 - A code editor or IDE that supports C++ (e.g., Visual Studio Code, CLion, or Visual Studio).
