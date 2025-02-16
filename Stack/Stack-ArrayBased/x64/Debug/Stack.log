@@ -1,0 +1,12 @@
+﻿D:\Programming\Downloads\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Stack.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stack-ArrayBased.cpp
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(87,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(134,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(154,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(170,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(172,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(235,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(269,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(57,1): warning C4715: 'stack::pop': not all control paths return a value
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-ArrayBased\Stack-ArrayBased.cpp(33,1): warning C4715: 'stack::peek': not all control paths return a value
+  Stack.vcxproj -> D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\x64\Debug\Stack-ArrayBased.exe

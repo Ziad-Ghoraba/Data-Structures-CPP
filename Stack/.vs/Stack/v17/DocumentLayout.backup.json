@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5F0380-2097-422D-8143-4E8E82D88F9A}|Stack-LinkedListBased\\Stack-LinkedListBased.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Stack-LinkedListBased\\Stack-LinkedListBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5A5F0380-2097-422D-8143-4E8E82D88F9A}|Stack-LinkedListBased\\Stack-LinkedListBased.vcxproj|solutionrelative:Stack-LinkedListBased\\Stack-LinkedListBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B9D309-DBEF-469C-9149-1290A9505E01}|Stack-ArrayBased\\Stack.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Stack-ArrayBased\\Stack-ArrayBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B9D309-DBEF-469C-9149-1290A9505E01}|Stack-ArrayBased\\Stack.vcxproj|solutionrelative:Stack-ArrayBased\\Stack-ArrayBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57501BB2-A3D5-46AB-AD50-1563F1554DB6}|Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57501BB2-A3D5-46AB-AD50-1563F1554DB6}|Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.vcxproj|solutionrelative:Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B5E67A-6105-4BF5-A9B4-8985DFB1AFB0}|Two-Stacks-Same-Array\\Two-Stacks-Same-Array.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Two-Stacks-Same-Array\\Two-Stacks-Same-Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36B5E67A-6105-4BF5-A9B4-8985DFB1AFB0}|Two-Stacks-Same-Array\\Two-Stacks-Same-Array.vcxproj|solutionrelative:Two-Stacks-Same-Array\\Two-Stacks-Same-Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Two-Stacks-Same-Array.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Two-Stacks-Same-Array\\Two-Stacks-Same-Array.cpp",
+              "RelativeDocumentMoniker": "Two-Stacks-Same-Array\\Two-Stacks-Same-Array.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Two-Stacks-Same-Array\\Two-Stacks-Same-Array.cpp",
+              "RelativeToolTip": "Two-Stacks-Same-Array\\Two-Stacks-Same-Array.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T16:05:05.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Another-Stack-Array-Based-Design.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.cpp",
+              "RelativeDocumentMoniker": "Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.cpp",
+              "RelativeToolTip": "Another-Stack-Array-Based-Design\\Another-Stack-Array-Based-Design.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T13:46:37.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stack-ArrayBased.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Stack-ArrayBased\\Stack-ArrayBased.cpp",
+              "RelativeDocumentMoniker": "Stack-ArrayBased\\Stack-ArrayBased.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Stack-ArrayBased\\Stack-ArrayBased.cpp",
+              "RelativeToolTip": "Stack-ArrayBased\\Stack-ArrayBased.cpp",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAYwAoBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T02:14:21.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stack-LinkedListBased.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Stack-LinkedListBased\\Stack-LinkedListBased.cpp",
+              "RelativeDocumentMoniker": "Stack-LinkedListBased\\Stack-LinkedListBased.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\05 Stack\\Stack\\Stack-LinkedListBased\\Stack-LinkedListBased.cpp",
+              "RelativeToolTip": "Stack-LinkedListBased\\Stack-LinkedListBased.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T02:12:26.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

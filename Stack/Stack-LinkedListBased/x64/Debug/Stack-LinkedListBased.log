@@ -1,0 +1,4 @@
+﻿  Stack-LinkedListBased.cpp
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-LinkedListBased\Stack-LinkedListBased.cpp(114,1): warning C4715: 'Evaluate': not all control paths return a value
+D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\Stack-LinkedListBased\Stack-LinkedListBased.cpp(61,1): warning C4715: 'stack::pop': not all control paths return a value
+  Stack-LinkedListBased.vcxproj -> D:\Programming\Data Structure & Algorithm\Data Structure\05 Stack\Stack\x64\Debug\Stack-LinkedListBased.exe
