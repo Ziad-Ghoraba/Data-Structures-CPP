@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF1993A2-0BEF-4967-950A-6E5A2A0658B0}|QueueTwoStacksBased\\QueueTwoStacksBased.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueTwoStacksBased\\QueueTwoStacksBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF1993A2-0BEF-4967-950A-6E5A2A0658B0}|QueueTwoStacksBased\\QueueTwoStacksBased.vcxproj|solutionrelative:QueueTwoStacksBased\\QueueTwoStacksBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD203783-D584-4573-AC43-EF0D7A19974F}|BuildPriorityQueue\\BuildPriorityQueue.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\BuildPriorityQueue\\BuildPriorityQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD203783-D584-4573-AC43-EF0D7A19974F}|BuildPriorityQueue\\BuildPriorityQueue.vcxproj|solutionrelative:BuildPriorityQueue\\BuildPriorityQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9810A027-DD00-49AB-A9A3-D3EB5CDC7DDB}|QueueLinkedListBased\\QueueLinkedListBased.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueLinkedListBased\\QueueLinkedListBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9810A027-DD00-49AB-A9A3-D3EB5CDC7DDB}|QueueLinkedListBased\\QueueLinkedListBased.vcxproj|solutionrelative:QueueLinkedListBased\\QueueLinkedListBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC570D74-DF56-43D4-843F-D2F0B78299EE}|QueueArrayBased\\QueueArrayBased.vcxproj|D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueArrayBased\\QueueArrayBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC570D74-DF56-43D4-843F-D2F0B78299EE}|QueueArrayBased\\QueueArrayBased.vcxproj|solutionrelative:QueueArrayBased\\QueueArrayBased.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildPriorityQueue.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\BuildPriorityQueue\\BuildPriorityQueue.cpp",
+              "RelativeDocumentMoniker": "BuildPriorityQueue\\BuildPriorityQueue.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\BuildPriorityQueue\\BuildPriorityQueue.cpp",
+              "RelativeToolTip": "BuildPriorityQueue\\BuildPriorityQueue.cpp",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAowOYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-19T05:00:52.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueueTwoStacksBased.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueTwoStacksBased\\QueueTwoStacksBased.cpp",
+              "RelativeDocumentMoniker": "QueueTwoStacksBased\\QueueTwoStacksBased.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueTwoStacksBased\\QueueTwoStacksBased.cpp",
+              "RelativeToolTip": "QueueTwoStacksBased\\QueueTwoStacksBased.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-19T04:34:57.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QueueArrayBased.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueArrayBased\\QueueArrayBased.cpp",
+              "RelativeDocumentMoniker": "QueueArrayBased\\QueueArrayBased.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueArrayBased\\QueueArrayBased.cpp",
+              "RelativeToolTip": "QueueArrayBased\\QueueArrayBased.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T02:41:36.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueueLinkedListBased.cpp",
+              "DocumentMoniker": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueLinkedListBased\\QueueLinkedListBased.cpp",
+              "RelativeDocumentMoniker": "QueueLinkedListBased\\QueueLinkedListBased.cpp",
+              "ToolTip": "D:\\Programming\\Data Structure \u0026 Algorithm\\Data Structure\\06 Queue\\Code\\QueueLinkedListBased\\QueueLinkedListBased.cpp",
+              "RelativeToolTip": "QueueLinkedListBased\\QueueLinkedListBased.cpp",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAKIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T02:39:40.195Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
