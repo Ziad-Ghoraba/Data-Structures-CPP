@@ -18,7 +18,12 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
 
 📌 **4. Stack**  
    - Multiple implementations of stack data structures.  
-   - Stack-based algorithms for solving common computational problems.  
+   - Stack-based algorithms for solving common computational problems.
+
+📌 **5. Queue**
+   - Multiple implementations of queue data structures.
+   - **Priority Queue** and **Queue using Stacks**.
+
 
 ---
 
@@ -126,7 +131,31 @@ This repository now includes multiple implementations of the **Stack** data stru
   - `asteroidCollision`: Simulates asteroid collisions using a stack.
   - `infix_to_postfix`: Converts an infix expression to postfix notation for easier computation.
   - `infix_to_postfix_efficient`: Optimized version of the infix-to-postfix conversion.
- 
+---
+
+ ## 📌 5. Queue
+
+This repository includes multiple implementations of the **Queue** data structure, including a **Priority Queue** and a **Queue using Stacks**.
+
+### Key Features:
+- **Queue Implementations**:
+  - **LinkedList-based Queue**: Uses a singly linked list for efficient enqueue and dequeue operations.
+  - **Array-based Queue**: Implements a circular queue using an array for fixed-size queues.
+  - **Queue using Stacks**: Implements a queue using two stacks, showcasing how stacks can be used to simulate queue behavior.
+- **Priority Queue**:
+  - Implements a priority queue with three levels of priority (1, 2, and 3).
+  - Ensures that elements with higher priority are dequeued first.
+- **Efficient Operations**:
+  - `enqueue`: Adds an element to the queue.
+  - `dequeue`: Removes and returns the front element from the queue.
+  - `is_empty`: Checks if the queue is empty.
+  - `is_full`: Checks if the queue is full (for fixed-size queues).
+  - `front`: Returns the front element without removing it.
+- **Advanced Operations**:
+  - `enqueue_front`: Adds an element to the front of the queue (for deque-like behavior).
+  - `dequeue_rear`: Removes and returns the rear element from the queue (for deque-like behavior).
+- **Debugging Tools**:
+  - `display`: Prints the current state of the queue for debugging purposes.
 --- 
 ### Prerequisites
 - A working installation of a C++ compiler (e.g., GCC, Clang, or MSVC).
