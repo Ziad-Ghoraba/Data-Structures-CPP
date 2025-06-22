@@ -1,0 +1,7 @@
+﻿  Tree-P2.cpp
+D:\Programming\Data Structure & Algorithm\Data Structure\07 Binary Tree\Code\Tree-P2\Tree-P2.cpp(130,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\07 Binary Tree\Code\Tree-P2\Tree-P2.cpp(186,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\07 Binary Tree\Code\Tree-P2\Tree-P2.cpp(212,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\07 Binary Tree\Code\Tree-P2\Tree-P2.cpp(260,12): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\Programming\Data Structure & Algorithm\Data Structure\07 Binary Tree\Code\Tree-P2\Tree-P2.cpp(261,12): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Tree-P2.vcxproj -> D:\Programming\Data Structure & Algorithm\Data Structure\07 Binary Tree\Code\x64\Debug\Tree-P2.exe
