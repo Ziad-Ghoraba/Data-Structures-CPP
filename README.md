@@ -156,8 +156,50 @@ This repository includes multiple implementations of the **Queue** data structur
   - `dequeue_rear`: Removes and returns the rear element from the queue (for deque-like behavior).
 - **Debugging Tools**:
   - `display`: Prints the current state of the queue for debugging purposes.
+
+---
+
+## 📌 6. Binary Tree
+
+This repository now includes a custom implementation of a **Binary Tree**, with a wide range of traversal, utility, and structural methods. It helps explore how binary trees work and supports solving many common tree-related problems.
+
+### Key Features:
+
+- **Tree Construction**:
+  - `add`: Adds a node along a given path using a combination of values and directions (`L` or `R`), allowing flexible tree construction.
+
+- **Traversal Methods**:
+  - `print_in_order`: In-order traversal of the tree.
+  - `level_order_traversal1`: Classic level-order traversal using a queue.
+  - `level_order_traversal2`: Level-order traversal that prints nodes level-by-level.
+  - `zigzagLevelOrder`: Level-order traversal in zigzag (alternating) pattern.
+
+- **Tree Properties and Utilities**:
+  - `find_max`, `find_max_2`: Find the maximum node value in the tree.
+  - `sum_of_all_nodes`: Calculates the total sum of all node values.
+  - `maxDepth`: Returns the maximum depth (height) of the tree.
+  - `no_of_nodes`: Counts the total number of nodes.
+  - `no_of_levels_prefectTree`: Returns the number of levels in a perfect tree.
+  - `hasPathSum`: Checks if there's a root-to-leaf path with a specific sum.
+  - `sumOfLeftLeaves`: Calculates the sum of all left leaf nodes.
+
+- **Tree Type Checks**:
+  - `is_full_BT`: Checks if the tree is a full binary tree.
+  - `is_perfect`, `is_perfect_formula`: Checks if the tree is a perfect binary tree using two different techniques.
+  - `isSymmetric`: Determines if the binary tree is symmetric (mirror image).
+
+- **Tree Serialization & Patterns**:
+  - `parenthesize`: Converts the tree into a parenthesis-encoded string representation.
+
+- **Advanced Features**:
+  - `duplicates_sub_trees`: Identifies all duplicate subtrees in the binary tree and returns their serialized patterns for comparison.
+
+- **Private Helper Functions**:
+  - Recursive and utility functions that support traversal, symmetry check, subtree detection, and tree serialization.
+
 --- 
 ### Prerequisites
 - A working installation of a C++ compiler (e.g., GCC, Clang, or MSVC).
 - A code editor or IDE that supports C++ (e.g., Visual Studio Code, CLion, or Visual Studio).
+
 
