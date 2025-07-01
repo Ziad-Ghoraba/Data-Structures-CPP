@@ -20,10 +20,17 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
    - Multiple implementations of stack data structures.  
    - Stack-based algorithms for solving common computational problems.
 
-📌 **5. Queue**
-   - Multiple implementations of queue data structures.
-   - **Priority Queue** and **Queue using Stacks**.
+📌 **5. Queue**  
+   - Multiple implementations of queue data structures.  
+   - Includes **Priority Queue** and **Queue using Stacks**.
 
+📌 **6. Binary Tree**  
+   - In-depth binary tree implementation.  
+   - Includes traversals, symmetry checks, structural validations, and serialization.
+
+📌 **7. Binary Search Tree (BST)**  
+   - Fully functional BST with efficient insert, delete, search, and traversal.  
+   - Advanced features like kth smallest, successor, and lowest common ancestor.
 
 ---
 
@@ -196,6 +203,46 @@ This repository now includes a custom implementation of a **Binary Tree**, with 
 
 - **Private Helper Functions**:
   - Recursive and utility functions that support traversal, symmetry check, subtree detection, and tree serialization.
+
+---
+
+## 📌 6. Binary Search Tree (BST)
+
+This repository now includes a fully functional **Binary Search Tree (BST)** implementation in C++, providing fundamental and advanced operations with efficient time complexities based on tree height (`O(h)`).
+
+### Key Features:
+
+- **Tree Construction**:
+  - `insert`: Adds a value to the BST while maintaining its properties.
+  - `add`: Flexible addition based on a path with directions (`L`, `R`), used for manual tree building and testing.
+
+- **Search Operations**:
+  - `normal_search`: Searches for a value using a brute-force method (`O(n)`).
+  - `BST`: Searches using the BST property for improved performance (`O(h)`).
+
+- **Traversal**:
+  - `print_inorder`: In-order traversal to display elements in sorted order.
+  - `_inorder_list`: Internal utility to collect elements in in-order.
+
+- **Minimum and Successor**:
+  - `minimum`: Finds the smallest element in the tree (`O(h)`).
+  - `minimum_in_BST`: BST-specific optimized version.
+  - `successor`: Finds the next greater value in in-order traversal.
+  - `successor_v2`: More efficient version using parent tracking and subtrees.
+
+- **Kth Smallest Element**:
+  - `kthSmallest`: Returns the kth smallest element in the BST (`O(n)` if done via in-order).
+
+- **Lowest Common Ancestor (LCA)**:
+  - `lowestCommonAncestor`: Finds the LCA of two nodes in a BST (`O(h)`).
+
+- **Conversion and Utilities**:
+  - `sortedArrayToBST`: Converts a sorted array into a balanced BST.
+  - `treeToDoubleList`: Converts BST to a **circular doubly linked list** using in-order order.
+  - `isValidBST`: Verifies if the current tree structure is a valid BST.
+
+- **Deletion**:
+  - `Delete`: Removes a node from the BST while maintaining its properties (`O(h)`).
 
 --- 
 ### Prerequisites
