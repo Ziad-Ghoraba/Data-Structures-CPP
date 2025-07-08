@@ -354,7 +354,7 @@ private:
 
 int main() {
 
-	// 					50
+	// 				 50
 	//		30							70
 	//	10		40				60				80
 	//     12                55                        90
@@ -368,6 +368,7 @@ int main() {
 	tree.print_inorder();
 	tree.Delete(50);
 	tree.print_inorder();
+
 	return 0;
 }
 
