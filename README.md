@@ -32,6 +32,10 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
    - Fully functional BST with efficient insert, delete, search, and traversal.  
    - Advanced features like kth smallest, successor, and lowest common ancestor.
 
+📌 **8. Heap (Binary Heap)**  
+   - Full implementation of **MinHeap**, **MaxHeap**, and **Priority Queue**.  
+   - Includes core operations, validation methods, and application to real problems like **kth smallest element** in a matrix.
+
 ---
 
 ## 📌 1. Vectors
@@ -243,6 +247,61 @@ This repository now includes a fully functional **Binary Search Tree (BST)** imp
 
 - **Deletion**:
   - `Delete`: Removes a node from the BST while maintaining its properties (`O(h)`).
+
+---
+
+## 📌 8. Heap (Binary Heap)
+
+This repository now includes complete implementations of **MinHeap**, **MaxHeap**, and a **Priority Queue**, showcasing heap-based structures and their real-world applications.
+
+### MinHeap
+
+A complete binary tree where each parent is **less than or equal** to its children.
+
+**Key Features:**
+- Dynamic array-based heap implementation with raw memory management.
+- **Operations**:
+  - `push`: Inserts an element and maintains heap order via `heapify_up`.
+  - `pop`: Removes the root (minimum value) and re-heapifies using `heapify_down`.
+  - `top`: Returns the smallest element without removing it.
+  - `is_heap`: Validates the MinHeap property.
+  - `print_less_than(val)`: Prints all elements smaller than a given value.
+
+---
+
+### MaxHeap
+
+A mirror of MinHeap where each parent is **greater than or equal** to its children.
+
+**Key Features:**
+- Built from scratch with full support for:
+  - `push`, `pop`, `top`, `heapify_up`, and `heapify_down`.
+- Two implementations:
+  - Direct max-heap using comparison logic.
+  - MaxHeap wrapper that internally uses MinHeap with negated values (for educational abstraction).
+
+---
+
+### Priority Queue
+
+Implements a **priority-based queue** using a binary heap structure.
+
+**Key Features:**
+- Stores elements with associated priority levels.
+- Higher priority values are dequeued first.
+- Internally uses a max-heap to maintain order.
+
+**Operations:**
+- `enqueue(data, priority)`: Adds an element with its priority.
+- `dequeue()`: Removes and returns the element with the highest priority.
+- `top()`: Retrieves the element with the highest priority.
+- `isempty()`: Checks if the queue is empty.
+
+---
+
+### Use Case: Kth Smallest Element in Matrix
+
+Includes a function `kthSmallest` that demonstrates how a **priority queue** can be used to solve matrix-based problems — such as finding the kth smallest element in a sorted 2D matrix — by maintaining a max-heap of size `k`.
 
 --- 
 ### Prerequisites
