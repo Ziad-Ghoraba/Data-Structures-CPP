@@ -297,13 +297,67 @@ Implements a **priority-based queue** using a binary heap structure.
 - `top()`: Retrieves the element with the highest priority.
 - `isempty()`: Checks if the queue is empty.
 
----
 
 ### Use Case: Kth Smallest Element in Matrix
 
 Includes a function `kthSmallest` that demonstrates how a **priority queue** can be used to solve matrix-based problems — such as finding the kth smallest element in a sorted 2D matrix — by maintaining a max-heap of size `k`.
 
 --- 
+## 📌 9. Trie (Prefix Tree)
+
+This repository now includes a complete implementation of the **Trie (Prefix Tree)** data structure, designed for efficient string storage, retrieval, and advanced string-based queries.
+
+### Key Features:
+- **Insertion**:
+  - `insert(string str)`  
+    Inserts a word into the trie using an iterative approach.
+  - `insert(string str, int index)`  
+    Recursive insertion starting from a given index.
+  - Supports both **normal** and **reversed** string insertion (used for suffix queries).
+
+- **Search Operations**:
+  - `word_exist(string str)`  
+    Checks if a complete word exists in the trie.
+  - `word_exist(string str, int index)`  
+    Recursive version of `word_exist`.
+  - `prefix_exist(string str)`  
+    Returns true if any inserted word starts with the given prefix.
+
+- **Autocomplete**:
+  - `auto_complete(const string& str, vector<string>& res)`  
+    Returns all words in the trie that begin with a given prefix.
+
+- **Fuzzy Matching**:
+  - `word_exist_with_1_change(string str)`  
+    Returns true if there's a word that differs by only **one character** from the given string.
+
+- **Root Replacement**:
+  - `root(string word)`  
+    Finds and returns the shortest root in the trie that matches the start of the word. Useful for dictionary root replacement problems.
+
+- **Suffix Search**:
+  - `suffix_exist(string str)`  
+    Uses a reversed trie to check whether a word **ends** with a given suffix.
+
+- **Get All Stored Words**:
+  - `get_all_strings(vector<string>& res)`  
+    Retrieves all words currently stored in the trie.
+
+- **Substring Queries**:
+  - `list_substrs(const string& str, vector<string>& queries)`  
+    Efficiently answers multiple substring queries by inserting all suffixes of a string into the trie and searching the queries.
+
+- **Directory-style Trie (map-based)**:
+  - Supports path-like strings such as `"home/software/eclipse"` using `map<string, trie*>` to insert and search nested paths.
+
+### Use Cases:
+- Autocomplete systems (like search bars)
+- Spell checking and typo correction
+- Word replacement based on dictionary roots
+- Suffix search and reverse lookups
+- Directory structure representation
+- Substring existence queries in `O(1)` time per query after setup
+
 ### Prerequisites
 - A working installation of a C++ compiler (e.g., GCC, Clang, or MSVC).
 - A code editor or IDE that supports C++ (e.g., Visual Studio Code, CLion, or Visual Studio).
