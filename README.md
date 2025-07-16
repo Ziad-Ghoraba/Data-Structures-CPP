@@ -36,6 +36,11 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
    - Full implementation of **MinHeap**, **MaxHeap**, and **Priority Queue**.  
    - Includes core operations, validation methods, and application to real problems like **kth smallest element** in a matrix.
 
+📌 **9. Trie (Prefix Tree)**  
+   - Implementation of Trie data structure for storing strings efficiently.  
+   - Supports insertion, search, prefix checking, and suffix-related queries.  
+   - Includes applications like auto-completion and word replacement.
+
 ---
 
 ## 📌 1. Vectors
