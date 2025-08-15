@@ -41,6 +41,11 @@ Welcome to the **Data Structures in C++** repository! This repository is dedicat
    - Supports insertion, search, prefix checking, and suffix-related queries.  
    - Includes applications like auto-completion and word replacement.
 
+📌 **10. Hashtable**  
+   - Implementation of hashtable data structure using Quadratic Probing with Rehashing for collision handling.  
+   - Supports insertion, search, and deletion operations with dynamic resizing.  
+   - Includes applications like caching, duplicate detection, and fast lookups.  
+
 ---
 
 ## 📌 1. Vectors
@@ -215,7 +220,7 @@ This repository now includes a custom implementation of a **Binary Tree**, with 
 
 ---
 
-## 📌 6. Binary Search Tree (BST)
+## 📌 7. Binary Search Tree (BST)
 
 This repository now includes a fully functional **Binary Search Tree (BST)** implementation in C++, providing fundamental and advanced operations with efficient time complexities based on tree height (`O(h)`).
 
@@ -362,9 +367,67 @@ This repository now includes a complete implementation of the **Trie (Prefix Tre
 - Suffix search and reverse lookups
 - Directory structure representation
 - Substring existence queries in `O(1)` time per query after setup
+---
 
+## 📌 10. Hashtable
+
+This repository now includes a complete implementation of the **Hashtable** data structure, using **Quadratic Probing with Rehashing** for collision handling and dynamic resizing.
+
+### Key Features:
+- **Insertion**:
+  - `insert(int key)`  
+    Inserts a key into the hashtable.  
+    Automatically triggers **rehashing** when the load factor exceeds 0.5.
+  - Collision resolution via **quadratic probing**:  
+    `(index + i²) % capacity` reduces clustering compared to linear probing.
+
+- **Search Operations**:
+  - `search(int key)`  
+    Returns `true` if the key exists in the table, `false` otherwise.
+
+- **Deletion**:
+  - `remove(int key)`  
+    Marks a key as deleted using a special sentinel value without disrupting the probing sequence.
+
+- **Rehashing**:
+  - Dynamically resizes the table (doubles capacity) when the load factor exceeds the set threshold, redistributing all keys.
+
+- **Load Factor Management**:
+  - Keeps track of current usage to maintain efficient operations.
+
+### Time Complexity:
+| Operation | Average Case | Worst Case |
+|-----------|--------------|------------|
+| Insertion | O(1)         | O(n)       |
+| Search    | O(1)         | O(n)       |
+| Deletion  | O(1)         | O(n)       |
+
+### Use Cases:
+- Caching and memoization
+- Fast membership testing
+- Duplicate detection
+- Database indexing
+- Implementing maps and sets
+---
 ### Prerequisites
+Before working with this repository, ensure you have the following:
 - A working installation of a C++ compiler (e.g., GCC, Clang, or MSVC).
-- A code editor or IDE that supports C++ (e.g., Visual Studio Code, CLion, or Visual Studio).
+- A code editor or IDE with C++ support (e.g., Visual Studio Code, CLion, or Visual Studio).
+
+---
+
+### 🤝 Contributing
+This is a personal project, but constructive contributions from the community are welcome.  
+If you have ideas for new data structures, algorithms, optimizations, or documentation improvements, please follow the process below:
+
+1. **Fork** the repository to your GitHub account.
+2. Create a dedicated branch for your feature or fix.
+3. Implement your changes, following the existing coding style and project structure.
+4. Write clear, descriptive commit messages.
+5. Open a **Pull Request** outlining the purpose and scope of your changes.
+
+All submissions will be reviewed by the repository owner before merging.  
+Priority will be given to contributions that maintain high code quality, clarity, and educational value.
+
 
 
