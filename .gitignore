@@ -10,3 +10,25 @@ obj/
 # Ignore images folder
 StoreInfoImages/
 
+# Build results
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Other temp
+*.cache
+*.tmp
